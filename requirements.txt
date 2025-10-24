@@ -1,0 +1,30 @@
+# PDF e extração de texto
+PyPDF2==3.0.1
+pdfplumber==0.10.2
+pdfminer.six==20221105
+
+# Web scraping (se necessário)
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Processamento de texto / NLP
+nltk==3.8.1
+spacy==3.6.1
+gensim==4.3.2
+rapidfuzz==2.16.1
+
+# ML / IA local (LLaMA, GPT4All, etc.)
+torch==2.2.0
+transformers==4.34.0
+sentence-transformers==2.2.2
+llama-cpp-python==0.2.0  # se usar LLaMA local
+gpt4all==1.0.0  # se usar GPT4All local
+
+# Banco de dados SQLite
+sqlite3  # já vem com Python, mas você pode instalar pysqlite3 se quiser compatibilidade extra
+pysqlite3-binary==0.4.3
+
+# Auxiliares
+tqdm==4.66.1
+python-dotenv==1.0.0  # para variáveis de ambiente
